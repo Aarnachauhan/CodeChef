@@ -1,0 +1,17 @@
+problem : https://www.codechef.com/problems/CHESSWIN
+
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+int cal(int A,int B){
+    int c=abs(A-B);
+    return c+1;
+}
+int main() {
+   int A;
+   int B;
+   cin>> A>> B;
+   cout<< cal(A, B);
+
+    return 0;
+}
